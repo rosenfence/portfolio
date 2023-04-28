@@ -10,9 +10,9 @@ export default function Navbar() {
   };
 
   return (
-    <>
-      <button className='flex h-6 md:hidden' onClick={handleClick}>
-        ►
+    <nav>
+      <button className='flex-center md:hidden hover:scale-110' onClick={handleClick}>
+        <img src='https://api.iconify.design/ic:baseline-menu.svg?color=Black' className='w-20 h-10 mt-10' />
       </button>
       <LinkList styles={'hidden md:flex'} />
       <div className={`${open ? 'absolute inset-0 z-50 bg-modal-background' : 'hidden'} transition-all`} onClick={handleClick}>
@@ -23,6 +23,6 @@ export default function Navbar() {
           <LinkList />
         </div>
       </div>
-    </>
+    </nav>
   );
 }

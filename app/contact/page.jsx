@@ -1,8 +1,119 @@
 export default function Contact() {
   return (
-    <div>
-      <h1>연락주세요</h1>
-      {/* TODO: github, blog, email, hp */}
-    </div>
+    <section className='flex flex-col w-[100%] mt-10'>
+      <h1 className='mb-16 text-4xl font-bold'>CONTACT</h1>
+      <div className='w-[100%] overflow-auto mb-10'>
+        <div>GitHub</div>
+        <div>Blog</div>
+        <div>email</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+        <div>Phone Number</div>
+      </div>
+    </section>
   );
 }
