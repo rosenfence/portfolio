@@ -11,8 +11,10 @@ export default function Navbar() {
 
   return (
     <>
-      <div className={`md:hidden ${open ? 'flex' : 'hidden'} flex-col w-[300px] flex-center bg-gradient-to-r from-theme to-theme-background`}>
-        <button onClick={handleClick}>닫기</button>
+      <div className={`md:${open ? 'hidden' : 'flex'} ${open ? 'flex' : 'hidden'} flex-col w-[300px] flex-center bg-gradient-to-r from-theme to-theme-background`}>
+        <button className='flex md:hidden' onClick={handleClick}>
+          닫기
+        </button>
         <Link className='m-8 text-white hover:font-bold' href='/'>
           MAIN
         </Link>
