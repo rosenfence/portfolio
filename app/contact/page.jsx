@@ -1,8 +1,8 @@
 export default function Contact() {
   return (
-    <section className='section'>
-      <header className='section-title'>CONTACT</header>
-      <p className='section-content'>
+    <main className='main'>
+      <header className='header'>CONTACT</header>
+      <section className='section'>
         <div>GitHub</div>
         <div>Blog</div>
         <div>email</div>
@@ -113,7 +113,7 @@ export default function Contact() {
         <div>Phone Number</div>
         <div>Phone Number</div>
         <div>Phone Number</div>
-      </p>
-    </section>
+      </section>
+    </main>
   );
 }

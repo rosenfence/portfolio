@@ -1,8 +1,8 @@
 export default function About() {
   return (
-    <section className='section'>
-      <header className='section-title'>ABOUT ME</header>
-      <p className='section-content'>내용</p>
-    </section>
+    <main className='main'>
+      <header className='header'>ABOUT ME</header>
+      <section className='section'>내용</section>
+    </main>
   );
 }
