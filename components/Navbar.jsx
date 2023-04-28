@@ -11,9 +11,9 @@ export default function Navbar() {
 
   return (
     <>
-      <div className={`md:${open ? 'hidden' : 'flex'} ${open ? 'flex' : 'hidden'} flex-col w-[300px] flex-center bg-gradient-to-r from-theme to-theme-background`}>
+      <div className={`md:flex ${open ? 'flex' : 'hidden'} flex-col w-[300px] flex-center bg-gradient-to-r from-theme to-theme-background`}>
         <button className='flex md:hidden' onClick={handleClick}>
-          닫기
+          ◀︎
         </button>
         <Link className='m-8 text-white hover:font-bold' href='/'>
           MAIN
@@ -29,7 +29,7 @@ export default function Navbar() {
         </Link>
       </div>
       <button className={`${open ? 'hidden' : 'flex'} mr-5 md:hidden`} onClick={handleClick}>
-        열기
+        ►
       </button>
     </>
   );
