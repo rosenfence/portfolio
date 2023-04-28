@@ -1,8 +1,8 @@
 export default function Contact() {
   return (
-    <section className='flex flex-col w-[100%] mt-10'>
-      <h1 className='mb-16 text-4xl font-bold'>CONTACT</h1>
-      <div className='w-[100%] overflow-auto mb-10'>
+    <section className='section'>
+      <header className='section-title'>CONTACT</header>
+      <p className='section-content'>
         <div>GitHub</div>
         <div>Blog</div>
         <div>email</div>
@@ -113,7 +113,7 @@ export default function Contact() {
         <div>Phone Number</div>
         <div>Phone Number</div>
         <div>Phone Number</div>
-      </div>
+      </p>
     </section>
   );
 }
