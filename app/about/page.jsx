@@ -1,8 +1,8 @@
 export default function About() {
   return (
-    <div>
-      <h1>이력서</h1>
-      {/* TODO: 이력서 내용 넣기 */}
-    </div>
+    <section className='section'>
+      <header className='section-title'>ABOUT ME</header>
+      <p className='section-content'>내용</p>
+    </section>
   );
 }
