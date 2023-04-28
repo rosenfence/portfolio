@@ -1,7 +1,6 @@
 import Navbar from '@/components/Navbar';
 import './globals.css';
 import { Inter } from 'next/font/google';
-import Menu from '@/components/Menu';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -16,7 +15,6 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <div className='flex w-[1200px] bg-theme-background'>
           <Navbar />
-          <Menu />
           {children}
         </div>
       </body>
