@@ -1,6 +1,6 @@
 'use client';
-import Link from 'next/link';
 import { useState } from 'react';
+import LinkList from './LinkList';
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -11,26 +11,18 @@ export default function Navbar() {
 
   return (
     <>
-      <div className={`md:flex ${open ? 'flex' : 'hidden'} flex-col w-[300px] flex-center bg-gradient-to-r from-theme to-theme-background`}>
-        <button className='flex md:hidden' onClick={handleClick}>
-          ◀︎
-        </button>
-        <Link className='m-8 text-white hover:font-bold' href='/'>
-          MAIN
-        </Link>
-        <Link className='m-8 text-white hover:font-bold' href='/projects'>
-          PROJECTS
-        </Link>
-        <Link className='m-8 text-white hover:font-bold' href='/about'>
-          ABOUT ME
-        </Link>
-        <Link className='m-8 text-white hover:font-bold' href='/contact'>
-          CONTACT
-        </Link>
-      </div>
-      <button className={`${open ? 'hidden' : 'flex'} mr-5 md:hidden`} onClick={handleClick}>
+      <button className='flex h-6 md:hidden' onClick={handleClick}>
         ►
       </button>
+      <LinkList styles={'hidden md:flex'} />
+      <div className={`${open ? 'absolute inset-0 z-50 bg-modal-background' : 'hidden'} transition-all`} onClick={handleClick}>
+        <div className={`relative md:hidden ${open ? 'flex' : 'hidden'} flex-col w-[300px] flex-center bg-theme`} onClick={(e) => e.stopPropagation()}>
+          <button className={`${open ? 'flex' : 'hidden'} mr-5 md:hidden`} onClick={handleClick}>
+            ◀︎
+          </button>
+          <LinkList />
+        </div>
+      </div>
     </>
   );
 }
