@@ -20,7 +20,7 @@ export default function Navbar() {
           <button className={`${open ? 'flex' : 'hidden'} mr-5 md:hidden`} onClick={handleClick}>
             ◀︎
           </button>
-          <LinkList />
+          <LinkList onClick={handleClick} />
         </div>
       </div>
     </nav>
