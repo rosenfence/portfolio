@@ -1,13 +1,27 @@
 'use client';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import LinkList from './LinkList';
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
+  const [width, setWidth] = useState(window.innerWidth);
 
   const handleClick = () => {
     setOpen((prev) => !prev);
   };
+
+  function handleResize() {
+    setWidth(window.innerWidth);
+  }
+
+  useEffect(() => {
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+  useEffect(() => {
+    width >= 768 ? setOpen(false) : null;
+  }, [width]);
 
   return (
     <nav>
