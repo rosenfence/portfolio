@@ -13,6 +13,7 @@
     flex-direction: column;
     width: 100%;
     margin-top: 2.5rem;
+    margin-right: 2.5rem;
   }
   .header {
     margin-bottom: 4rem;
