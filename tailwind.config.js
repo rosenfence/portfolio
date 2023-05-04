@@ -9,6 +9,7 @@ module.exports = {
       },
       colors: {
         theme: '#eee',
+        grey: '#808d9f',
         'modal-background': 'rgba(0, 0, 0, 0.6)',
       },
     },
