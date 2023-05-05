@@ -11,11 +11,11 @@
   .main {
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: calc(100% - 350px);
     margin-top: 2.5rem;
     margin-right: 2.5rem;
     @media (max-width: 768px) {
-      width: 40%;
+      width: calc(100% - 80px);
     }
   }
   .header {
